@@ -1,0 +1,41 @@
+* {
+    font-family: 'Patrick Hand', cursive;
+}
+
+#nutFactTop > * {
+    margin: 0 auto;
+}
+
+#nutFactTop > h3 {
+    text-align: justify;
+}
+
+#nutFactSeparator {
+    height: .75em;
+
+    margin: .5em .75em;
+}
+
+#navBanner {
+    background-image: none;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    #navBanner {
+        background-image: url('/img/banner.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 1200px) {
+
+}

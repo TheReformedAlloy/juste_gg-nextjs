@@ -1,0 +1,10 @@
+{
+    "verbose": true,
+    "ignore": [
+        "src/pages/*",
+        "src/components/*",
+        "src/blog/*",
+        "src/.next/*",
+        "src/public/*"
+    ]
+}
