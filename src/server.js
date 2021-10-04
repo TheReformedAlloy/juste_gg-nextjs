@@ -35,14 +35,14 @@ const app = next({
 });
 const handle = app.getRequestHandler();
 
-const https = require('https');
+// const https = require('https');
 const fs = require('fs');
 
-const httpsOptions = {
-    cert: fs.readFileSync(`${__dirname}/ssl/juste_gg.crt`),
-    ca: fs.readFileSync(`${__dirname}/ssl/juste_gg.ca-bundle`),
-    key: fs.readFileSync(`${__dirname}/ssl/juste_gg.key`)
-}
+// const httpsOptions = {
+//     cert: fs.readFileSync(`${__dirname}/ssl/juste_gg.crt`),
+//     ca: fs.readFileSync(`${__dirname}/ssl/juste_gg.ca-bundle`),
+//     key: fs.readFileSync(`${__dirname}/ssl/juste_gg.key`)
+// }
 
 app.prepare().then(() => {
     const server = express();
