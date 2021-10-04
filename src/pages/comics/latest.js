@@ -22,14 +22,14 @@ import {
           <hr />
           <Row>
             <Col xs={12} md={2}>
-              <Image className="w-100 h-100" data-src="holder.js/100px100p?text=AD 1" />
+              {/* <Image className="w-100 h-100" data-src="holder.js/100px100p?text=AD 1" /> */}
             </Col>
             <Col xs={12} md={8}>
               <ComicDisplay comicID={props.comicID} user={props.user} />
               {/* <Image className="w-100" data-src="holder.js/100px400?text=Latest Comic Available" /> */}
             </Col>
             <Col xs={12} md={2}>
-              <Image className="w-100 h-100" data-src="holder.js/100px100p?text=AD 2" />
+              {/* <Image className="w-100 h-100" data-src="holder.js/100px100p?text=AD 2" /> */}
             </Col>
           </Row>
         </Container>
